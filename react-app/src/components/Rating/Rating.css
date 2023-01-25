@@ -1,0 +1,31 @@
+.rating__img {
+	width: 30px;
+	height: 30px;
+}
+
+.rating__img_disable {
+	width: 30px;
+	height: 30px;
+}
+
+@media (max-width: 1499px) {
+
+	.rating__img {
+		width: 20px;
+		height: 20px;
+	}
+
+}
+
+
+@media (max-width: 1023px) {
+	.rating__img {
+		width: 20px;
+		height: 20px;
+	}
+
+	.rating__img_disable {
+		width: 20px;
+		height: 20px;
+	}
+}

@@ -1,0 +1,253 @@
+.section-aside {
+	display: flex;
+	flex-direction: column;
+	flex-basis: 420px;
+	gap: 15px;
+}
+
+.section-order__conteiner {
+	box-sizing: content-box;
+	width: 100%;
+	background: #ffffff;
+	border: 1px solid #eeeeee;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.1);
+	border-radius: 20px;
+}
+
+.section-order__inner {
+	max-width: 380px;
+	margin: 24px 20px 20px 20px;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.section-order__top {
+	display: flex;
+	justify-content: space-between;
+}
+
+.favorites__btn {
+	width: 30px;
+	height: 30px;
+	background-image: url(./../../../public/Image/Иконка\ сердечка.svg);
+	border: none;
+	background-color: #ffffff;
+}
+
+.favorites__btn_active {
+	width: 30px;
+	height: 30px;
+	background-image: url(./../../../public/Image/icon/Иконка\ активного\ сердечка.svg);
+	background-size: contain;
+	border: none;
+		background-color: #ffffff;
+}
+
+
+.favorites__btn:hover {
+	background-image: url(./../../../public/Image/Иконка\ сердечка\ hover.svg);
+}
+
+.favorites__btn:active {
+	background-image: url(./../../../public/Image/Иконка\ сердечка\ active.svg);
+}
+
+.price-box {
+	max-width: 132px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.price-old {
+	max-width: 123px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 10px;
+}
+
+.price-old__text {
+	text-decoration: line-through;
+	color: #888888;
+	margin: 4px 0px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.price-discount {
+	max-width: 47px;
+}
+
+.price-discount__text {
+	background-color: #f36223;
+	border-radius: 500px;
+	padding: 4px 8px;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 16px;
+	color: #FFFFFF;
+}
+
+.price-new__text {
+	margin: 0;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 39px;
+	color: #000000;
+}
+
+.delivery {
+	max-width: 380px;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.delivery__text {
+	margin: 0;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+}
+
+.delivery__text:last-child {
+	margin-bottom: 20px;
+}
+
+.basket {
+	display: flex;
+}
+
+.basket__button {
+	width: 100%;
+	border-radius: 4px;
+	padding: 20px 49px;
+	background-color: #f36223;
+	border: none;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 24px;
+	color: #ffffff;
+	display: flex;
+	gap: 15px;
+	justify-content: center;
+}
+
+.basket__button::before {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url(./../../../public/Image/Vector.svg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+
+.basket__button:hover {
+	background: #da4a0c;
+}
+
+.basket__button:active{
+	background: #A93A09;
+}
+
+.basket__button_active{
+		width: 100%;
+		border-radius: 4px;
+		padding: 20px 49px;
+		background-color: #f36223;
+		border: none;
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 24px;
+		color: #ffffff;
+		display: flex;
+		gap: 15px;
+		justify-content: center;
+			background: #888888;
+}
+
+.basket__button_active::before {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background-image: url(./../../../public/Image/Vector.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.section-frame {
+	display: flex;
+	flex-direction: column;
+}
+
+.section-frame__ads {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #888888;
+	margin-bottom: 10px;
+}
+
+.section-frame {
+	display: flex;
+	flex-direction: column;
+}
+
+.section-frame__conteiner {
+	max-width: 420px;
+}
+
+.frame {
+	box-sizing: border-box;
+	width: 100%;
+	height: 300px;
+	border: 1px dashed #888888cc;
+}
+
+
+@media (max-width: 1023px) {
+
+	.section-order {
+		max-width: 340px;
+	}
+
+	.basket__button {
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 19px;
+	}
+
+	.basket__button::before {
+		width: 19.72px;
+		height: 18.76px;
+	}
+
+		.basket__button_active {
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 19px;
+		}
+
+		.basket__button_active::before{
+			width: 19.72px;
+			height: 18.76px;
+		}
+	.section_none {
+		display: none;
+	}
+	
+}

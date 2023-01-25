@@ -1,0 +1,56 @@
+.section-rewiew__conteiner {
+	max-width: 880px;
+	margin: 55px 0px 0px 51px;
+}
+
+.section-rewiew__header {
+	display: flex;
+	align-items: center;
+	gap: 0px 10px;
+}
+
+.section-review__title {
+	margin: 0px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	color: #000000;
+}
+
+.section-review__number {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 29px;
+	color: #888888;
+}
+
+@media (max-width: 1499px) {
+
+	.section-rewiew__conteiner {
+		max-width: 594px;
+		margin: 55px 0px 0px 15px;
+	}
+}
+
+@media (max-width: 1023px) {
+	.section-rewiew__conteiner {
+		max-width: 335px;
+		margin: 40px 0px 0px 15px;
+	}
+
+	.section-review__top {
+		gap: 15px;
+	}
+
+	.section-review__title {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 24px;
+	}
+
+	.section-review__number {
+		font-weight: 700;
+		font-size: 20px;
+		line-height: 24px;
+	}
+}

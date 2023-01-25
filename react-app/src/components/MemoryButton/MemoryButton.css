@@ -1,0 +1,28 @@
+.square-button__btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-basis: 92px;
+	padding: 0;
+	background-color: #f8fafe;
+	height: 39px;
+	border: 1px solid #888888;
+	border-radius: 4px;
+}
+
+.square-button__text {
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	color: #000000;
+	background: transparent;
+}
+
+.square-button__btn_enabled {
+	border: 2px solid #f36223;
+}
+
+@media (max-width: 1023px) {
+	
+}

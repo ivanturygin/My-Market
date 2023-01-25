@@ -1,0 +1,35 @@
+.square-image {
+	padding: 0;
+	background-color: #FFFFFF;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid #888888;
+	border-radius: 4px;
+	background: transparent;
+}
+
+.square-image__img {
+	width: 30.93px;
+	height: 60px;
+}
+
+.square-image_enabled {
+	border: 2px solid #f36223;
+}
+
+@media (max-width: 1023px) {
+
+	.square-image {
+		width: 60px;
+		height: 60px;
+	}
+
+	.square-image__img {
+		width: 25.77px;
+		height: 50px;
+	}
+
+}
